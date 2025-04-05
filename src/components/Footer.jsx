@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className="w-screen bg-violet-300 py-4 text-black">
             <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
                 <p className="text-center text-sm md:text-left">
-                    &copy; Nova {new Date().getFullYear()} All Rights Reserved
+                    &copy; Chi Studio {new Date().getFullYear()} All Rights Reserved
                 </p>
                 <div className="flex justify-center gap-4 md:justify-start">
                     {socialLinks.map((link) => (
@@ -20,7 +20,7 @@ const Footer = () => {
                         </a>
                     ))}
                 </div>
-                <a href="#privacy-policy" className="text-center text-sm hover:underline md:text-right">Privacy Policy</a>
+                {/*<a href="#privacy-policy" className="text-center text-sm hover:underline md:text-right">Privacy Policy</a>*/}
             </div>
         </footer>
     )

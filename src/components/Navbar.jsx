@@ -11,7 +11,7 @@ const Navbar = () => {
     const [lastScrollY, setLastScrollY] = useState(0);
     const navContainerRef = useRef(null);
     const audioElementRef = useRef(null);
-    const navItems = ['Nexus', 'Vault', 'Prologue', 'About', 'Contact'];
+    const navItems = ['characters', 'about', 'contact'];
     const {y: currentScrollY} = useWindowScroll();
 
     const toggleAudioIndicator = () => {
@@ -56,12 +56,13 @@ const Navbar = () => {
             <header className="absolute top-1/2 w-full -translate-y-1/2">
                 <nav className="flex size-full items-center justify-between p-4">
                     <div className="flex item-center gap-7">
-                        <img src="/img/logo.png" alt="logo" className="w-10" />
+                        <img src="/img/logo.png" alt="logo" className="w-[100px] h-auto" />
                         <Button
                         id="product-button"
-                        title="Products"
+                        url="https://shorturl.at/o4DPK"
+                        title="Purchase on Amazon"
                         rightIcon={<TiLocationArrow />}
-                        containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+                        containerClass="!bg-yellow-300 md:flex hidden items-center justify-center gap-1"
                         />
                     </div>
 
@@ -74,7 +75,7 @@ const Navbar = () => {
                             ))}
                         </div>
                         <button className="ml-10 flex items-center space-x-0.5" onClick={toggleAudioIndicator}>
-                            <audio ref={audioElementRef} className="hidden" src="/audio/loop.mp3" loop />
+                            <audio ref={audioElementRef} className="hidden" src="/audio/we-are-special.mp3" loop />
                             {
                                 [1, 2, 3, 4].map((bar) => (
                                    <div key={bar} className={`indicator-line ${isIndicatorActive ? "active" : ""}`}

@@ -124,21 +124,21 @@ const Hero = () => {
                     />
                 </div>
                 <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40
-                text-blue-75">G<b>a</b>ming</h1>
+                text-blue-75">C<b>h</b>ildren Bo<b>o</b>k</h1>
                 <div className="absolute left-0 top-0 z-40 size-full">
                     <div className="mt-24 px-5 sm:px-10">
-                        <h1 className="special-font hero-heading text-blue-100">redefine</h1>
-                        <p className="mb-5 max-w-64 text-blue-100 font-robert-regular">Enter the Metagame Layer <br /> Unleash the Play Economy</p>
-                        <Button id="watch-trailer"
-                                title="Watch Trailer"
-                                leftIcon = {<TiLocationArrow />}
-                                containerClass = "!bg-yellow-300 flex-center gap-1"
-                        />
+                        <h1 className="special-font hero-heading text-blue-100">The colorful adventure of<br/>Three Little Chicks</h1>
+                        <p className="mb-5 max-w-64 text-xl text-blue-100 font-robert-regular">Join Red, Green, and Orange in their whimsical world, where courage shines and laughter rules.</p>
+                        {/*<Button id="watch-trailer"*/}
+                        {/*        title="Watch Trailer"*/}
+                        {/*        leftIcon = {<TiLocationArrow />}*/}
+                        {/*        containerClass = "!bg-yellow-300 flex-center gap-1"*/}
+                        {/*/>*/}
                     </div>
                 </div>
             </div>
             <h1 className="special-font hero-heading absolute bottom-5 right-5
-                text-black">G<b>a</b>ming</h1>
+                text-black">C<b>h</b>ildren Bo<b>o</b>k</h1>
         </div>
     )
 }

@@ -21,11 +21,11 @@ const Contact = () => {
                     <ImageClipBox src="img/swordman.webp" clipClass="sword-man-clip-path md:scale-125" />
                 </div>
                 <div className="flex flex-col items-center text-center">
-                    <p className="font-general text-[10px] uppercase">Join Zentry</p>
+                    <p className="font-general text-[10px] uppercase">Join me</p>
                     <p className="font-zentry special-font mt-10 w-full leading-[0.9] !text-5xl md:text-[6rem]">
-                        Let's b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether
+                        Spre<b>a</b>ding joy a<b>n</b>d wisdo<b>m</b>, <br/>one p<b>a</b>ge at a ti<b>m</b>e.
                     </p>
-                    <Button title="contact us" containerClass="mt-10 curson-pointer text-black" />
+                    <Button title="contact" containerClass="mt-10 curson-pointer text-black" url="mailto:c.hsiang.su@gmail.com" />
                 </div>
             </div>
         </div>

@@ -36,12 +36,12 @@ const Story = () => {
     }
 
     return (
-        <section id="story" className="min-h-dvh w-screen bg-black text-blue-50">
+        <section id="twist" className="min-h-dvh w-screen bg-black text-blue-50">
             <div className="flex flex-col size-full items-center py-10 pb-24">
-                <p className="font-general text-sm uppercase md:text-[10px]">the multiversal ip world</p>
+                <p className="font-general text-sm px-4 uppercase md:text-[10px]">When danger lurks, true colors shine—discover what makes our three little heroes extraordinary!</p>
                 <div className="relative size-full">
                     <AnimatedTitle
-                        title="The st<b>o</b>ry of <br /> a hidden real<b>m</b>"
+                        title="True colors <b>e</b>merge<br /> when ch<b>a</b>llenges arise"
                         sectionId="story"
                         containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
                     />
@@ -54,9 +54,9 @@ const Story = () => {
                                     onMouseEnter={handleMouseLeave}
                                     onMouseUp={handleMouseLeave}
                                     onMouseMove={handleMouseMove}
-                                    src="/img/entrance.webp"
+                                    src="/img/book-cover.png"
                                     alt="Entrance"
-                                    className="object-contain"
+                                    className="object-cover scale-[0.8]"
                                 />
                             </div>
                         </div>
@@ -64,9 +64,9 @@ const Story = () => {
                 </div>
                 <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
                     <div className="flex h-full w-fit flex-col items-center md:items-start">
-                        <p className="mt-3 max-w-sm text-center md:text-start font-circular-web text-violet-50">
-                            Where realms converge, lies Zentry and the boundless pillar. Discover its secrets and shape your fate amidst infinite opportunities.
-                            <Button id="realm-button" title="discover prologue" containerClass="mt-5 text-black" />
+                        <p className="mt-3 max-w-sm max-sm:mt-20 text-center md:text-start font-circular-web text-violet-50">
+                            Expect the unexpected: A journey of bravery and friendship that turns the ordinary into the extraordinary!<br/>
+                            <Button id="realm-button" url="https://shorturl.at/o4DPK" title="on Sale on Amazon" containerClass="mt-5 text-black !bg-yellow-300" />
                         </p>
                     </div>
                 </div>
